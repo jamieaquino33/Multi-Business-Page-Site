@@ -1,0 +1,28 @@
+body {
+    background-color: lightpink;
+    margin: 0; 
+}
+
+/* Targeting a class in CSS - every element that has the class header will receive these CSS rules */
+.header {
+    background-color: aliceblue;
+    overflow: hidden;
+    
+
+}
+.headerlink {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 33px; 
+
+}
+/*Target id in CSS with a # */
+#homelink {
+    float: left;
+}
+#aboutlink {
+        float: right;
+
+    }
+
