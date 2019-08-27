@@ -1,20 +1,30 @@
 body {
-    background-color: lightpink;
+    /* html color picker on google to find any color you want */
+    background-color: #b3b2b2;
     margin: 0; 
 }
 
 /* Targeting a class in CSS - every element that has the class header will receive these CSS rules */
 .header {
-    background-color: aliceblue;
+    background-color: rgb(243, 190, 208);
     overflow: hidden;
-    
-
 }
+
+.header a:hover{
+    background-color: gray;
+    color: black;
+}
+
 .headerlink {
     padding: 14px 16px;
     text-decoration: none;
-    color: blueviolet;
+    color: #ffffff;
     font-size: 33px; 
+    /* Red: f * f= 15 *15 = 255
+    Blue: f * f = 15 * 15 = 255 
+    Green: f * f = 15 * 15 = 255 
+    
+    255, 255, 255 */
 
 }
 /*Target id in CSS with a # */

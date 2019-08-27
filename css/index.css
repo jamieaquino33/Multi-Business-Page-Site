@@ -1,0 +1,20 @@
+
+/* Use # fir id's*/
+#businessname {
+    text-align: center;
+}
+
+#businesslogo {
+    display: block;
+    margin: 0 auto;
+}
+
+#businessdescription {
+    text-align: center;
+    margin: 20px;
+}
+#pic2 {
+    margin: 0 auto;
+    display: block;
+    float: right;
+}
